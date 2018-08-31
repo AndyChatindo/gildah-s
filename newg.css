@@ -1,0 +1,146 @@
+body , html{
+    height: 100%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: whitesmoke;
+}
+
+.w3-bar{
+    background-color: palevioletred;
+}
+.btn{
+    padding-left: 8px;
+    padding-right: 8px;
+    border: solid rgb(255, 0, 106) 1px;
+    border-radius: 8px
+}
+#d{
+    height: 260px;
+}
+.logo{ 
+    background-image: url("couple.jpg");
+    width: 100%;
+    min-height: 380px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fab{
+    font-size: 32px;
+    margin-right: 10px;
+}
+.fas{
+    font-size: 28px;
+}
+.w3-modal-content{
+    padding: 10px;
+    width: 500px;
+    height: auto;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+.maincontent{
+    background-color: whitesmoke
+}
+.logo2{
+    background-image: url("wedding.jpeg");
+    width: 100%;
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#silver{
+    display: none;
+}
+.w3-cell li{
+    list-style-type: none;
+}
+.logo3{
+    background-image: url("kiss.jpeg");
+    width: 100%;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+form{
+    padding: 5px;
+    background-image: url("Gildah.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.w3-modal-content input{
+    display: block;
+    width:95%;
+    border: 1px solid rgb(92, 89, 89);
+}
+.w3-bar{
+    position: fixed;
+}
+
+.form input {
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    display: block;
+}
+.dd{
+    float: right;
+}
+.cpy{
+float: left;
+}
+.w3-flat-clouds{color:#000;background-color:#ecf0f1}
+.plan{
+
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    width: 100%;
+    height: 300px;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.plan h2{
+            font-family: 'Sacramento', cursive;
+            margin-top: 150px;
+}
+
+.specs li {
+    list-style-type:circle;
+
+}
+.silver{    
+    background-image: url("silver.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.fa-times{
+    color: black
+}
+.card{
+    width:30vw;
+    margin-bottom: 8px;
+}
+.gold{
+    background-image: url("gold.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.diamond{
+    background-image: url("diamond.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
