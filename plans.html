@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link rel="stylesheet" href="newg.css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> 
+    <title>Gildah's Weddings Subscription Plans</title>
+</head>
+<body>
+    <!--page navigation bar medium to large-->
+   <div class="w3-bar w3-card" id="navbar">
+        <a href="newg.html" class="w3-bar-item w3-button w3-padding-16 w3-hover-pink">HOME</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-16  w3-hover-pink">ABOUT US</a>
+        <a href="plans.html" class="w3-bar-item w3-button w3-padding-16  w3-hover-pink w3-pink">PLANS</a>
+        <a href="showroom.html" class="w3-bar-item w3-button w3-padding-16  w3-hover-pink">SHOWROOM</a>
+        <a href="faqs.html" class="w3-bar-item w3-button w3-padding-16  w3-hover-pink">FAQS</a>
+        <a href="register.html" class="w3-bar-item w3-button w3-padding-16 w3-hover-pink">ONLINE REGISTRATION</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-16 w3-hover-pink">CONTACT</a>
+
+        <button class="btn w3-margin-top w3-right w3-margin-right w3-margin-right w3-pink"  onclick="logIn()">SIGN IN</button>
+   </div> 
+  <!--Modal for signing up-->
+  <div class="w3-modal" id="signUp" >
+        <form action="" method="" class="w3-modal-content w3-round maincontent">
+            <div class="w3-block">
+                <h3>Sign In<i class="fas fa-times w3-right  w3-margin-right" onclick="off()"></i></h3>
+            </div>
+            <label for="userName">Name</label>
+            <input type="text" name="username" id="userName">
+            <label for="userPassword">Password</label>
+            <input type="password" name="password" id="userPassword">
+            <button type="submit" class="w3-button w3-margin-top w3-pink">Sign In</button>
+            <p>Forgot your password? <a href="javascript:void(0)" onclick="pass()">Click here</a></p>
+        </form>
+  </div>
+  <!--modal for forgotten passwords-->
+  <div class="w3-modal" id="forgotPassword">
+        <form action="" method="" class="w3-modal-content w3-round maincontent">
+            <div class="w3-block">
+                <p class="w3-text-blue">Enter the cellphone number that you registered with.<i class="fas fa-times w3-right w3-margin-right" onclick="passOff()"></i></p>
+            </div>
+            <label for="userNumber">Number</label>
+            <input type="text" name="userNumber" id="userNumber">
+            <button type="submit" class="w3-button w3-margin-top w3-pink">Send password</button>
+        </form>
+  </div>
+  <!--modal for messaging-->
+  <div class="w3-modal" id="message">
+        <form action="" method="" class="w3-modal-content w3-round maincontent">
+            <div class="w3-block">
+                <h4>Send Us A Message<i class="fas fa-times w3-right  w3-margin-right" onclick="messageoff()"></i></h4>
+            </div>
+            <label for="Name">Name</label>
+            <input type="text" name="name" id="Name">
+            <label for="Subject">Subject</label>
+            <input type="text" name="name" id="Subject">
+            <label for="Message">Message</label>
+            <textarea name="message" id="Message" cols="30" rows="10"></textarea>
+            <button type="submit" class="w3-button w3-margin-top w3-pink">Send <i class="far fa-paper-plane"></i></button>
+           
+        </form>
+  </div>
+  <!--content goes here-->
+  <div class="w3-row w3-center plan">
+        <h2 class="w3-xxxlarge w3-text-pink">~PLANS~</h2>
+  </div>
+  <hr>
+  <p class="w3-margin">Our plans are subscription based paid on a monthly basis. They are chosen based on your preffered budget. Benefits are the same but the quantity differs. <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non quam et massa rutrum egestas at nec tortor. Donec cursus interdum tellus, a maximus mi blandit et. Integer pharetra odio magna, ac bibendum sem fermentum sed. Curabitur vitae posuere est. Nulla facilisi. Sed pulvinar volutpat felis vitae congue. Praesent ultrices dolor vehicula lorem egestas ornare. Curabitur ut nibh fringilla, maximus risus eget, tincidunt lorem. Donec ac fermentum lacus. Maecenas at massa tincidunt sem feugiat mattis. Donec a quam eget leo volutpat laoreet. Aenean id justo erat. Sed mi sem, bibendum at efficitur sit amet, efficitur sit amet ipsum. Donec viverra sit amet nulla eu suscipit. Nam pellentesque ipsum sit amet metus vulputate feugiat. Donec ut lacus tempus, iaculis metus a, pharetra nisl.
+
+    Nullam malesuada mi quis elit volutpat, id lacinia tortor vestibulum. Nullam a erat commodo massa varius facilisis ut ut massa. Aliquam erat volutpat. Curabitur arcu ante, hendrerit ac venenatis vel, varius quis turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed nulla mauris, fringilla id suscipit nec, rutrum sed est. Maecenas lobortis lacus nec dui dictum porta. Nullam convallis fermentum dui in vestibulum. Nulla facilisi. Maecenas tempor nunc eget ante egestas, nec porta dolor gravida. Vestibulum ornare, tortor in aliquet molestie, urna diam iaculis nibh, vel interdum metus nibh nec dui. Nullam tristique elit et ante semper </p>
+  <hr>
+  <div class="row w3-container w3-margin-top">
+        <div class="w3-third">
+                <div class="w3-card w3-round silver card w3-text-white  w3-padding-16 w3-mobile">
+                  <div class="w3-container">
+                    <h3>Silver Ring</h3>
+                 <hr>
+                 <ul class="specs">
+                     <li>70 Invitation cards</li>
+                     <li>Food</li>
+                     <li>1 Car</li>
+                     <li>Local Honeymoon</li>
+                     <li>Bridal Gown</li>
+                     <li>Venue</li>
+                 </ul>
+                  </div>
+                  <div class="w3-container">
+                        <h4 class="w3-margin-top">$40/month</h4>
+                        <button class="w3-button w3-round w3-pink">Join Plan</button>
+                  </div>
+                </div>
+         </div> 
+         <div class="w3-third">
+                <div class="w3-card w3-round gold card w3-padding-16  w3-mobile">
+                  <div class="w3-container">
+                    <h3>Gold Ring</h3>
+                 <hr>
+                 <ul class="specs">
+                     <li>70 Invitation cards</li>
+                     <li>Food</li>
+                     <li>1 Car</li>
+                     <li>Local Honeymoon</li>
+                     <li>Bridal Gown</li>
+                     <li>Venue</li>
+                 </ul>
+                  </div>
+                  <div class="w3-container">
+                        <h4 class="w3-margin-top">$40/month</h4>
+                        <button class="w3-button w3-round w3-pink">Join Plan</button>
+                  </div>
+                </div>
+         </div> 
+         <div class="w3-third">
+                <div class="w3-card w3-round-large diamond card w3-text-white w3-padding-16  w3-mobile">
+                  <div class="w3-container">
+                    <h3>Diamond</h3>
+                 <hr>
+                 <ul class="specs">
+                     <li>70 Invitation cards</li>
+                     <li>Food</li>
+                     <li>1 Car</li>
+                     <li>Local Honeymoon</li>
+                     <li>Bridal Gown</li>
+                     <li>Venue</li>
+                 </ul>
+                  </div>
+                  <div class="w3-container">
+                        <h4 class="w3-margin-top">$40/month</h4>
+                        <button class="w3-button w3-round w3-pink">Join Plan</button>
+                  </div>
+                </div>
+         </div> 
+   </div>
+   <div class="w3-section w3-center">
+      <a href="showroom.html" class="w3-button w3-teal">Take a look at our Showroom</a>
+   </div>
+   <div class="w3-row w3-center">
+        <a href="newg.html"> <img src="Gildah.svg" alt="" srcset="" width="300" height="300"></a>
+  </div>
+<div id="contact">
+  <div class="row maincontent w3-cell-row">
+        <div class="w3-cell w3-center w3-padding-32">
+            <h2>Your vision. Your event. Your way</h2>
+            <div class="w3-section">
+                 <p>Stay in Touch</p>
+                 <i class="fab fa-facebook-square"><a href="http://"></a></i>
+                 <i class="fab fa-instagram "><a href="http://"></a></i>
+                 <i class="fab fa-twitter-square"><a href="http://"></a></i>
+                 <i class="fab fa-skype"><a href="http://"></a></i>
+                 <i class="far fa-paper-plane fab" onclick="message()"></i>
+            </div>
+        </div>
+  </div>
+  <div class="w3-cell-row w3-row maincontent">
+        <div class="w3-cell w3-center w3-third" >
+            <h3> Call Us</h3>
+            <ul>
+                <li>+263 123 123 123 </li>
+                <li>+263 123 123 123 </li>
+                <li>+263 123 123 123 </li>
+                <li>+263 123 123 123 </li>
+            </ul>
+
+        </div>
+        <div class="w3-cell w3-center w3-third">
+         <h3>Find us</h3> 
+            <p><i class="fas fa-map-marked-alt"></i>12 Yelloowood Lane Chisipite Harare</p>
+        </div>
+    <div class="w3-cell w3-third w3-center">
+            <h3>Quick Links</h3> 
+            <ul>
+                    <li><a href="flowers.jpeg" download>Registration Form</a></li>
+                <li><a href="faqs.html">Faqs</a></li>
+                <li><a href="policy.html">Company Policy</a></li>
+                <li><a href="javascript:void(0)" onclick="pass()">Forgot password</a></li>
+            </ul>
+            </div>
+    </div>
+    <div class="w3-container w3-row w3-flat-clouds w3-padding">
+        <p class="cpy">&copy;2018 Gildah's Weddings</p>         <p class="dd">Site by <a href="http://">Andy Kudzai</a></p>
+    </div>
+</div>
+<script src="newg.js"></script>
+</body>
+</html>
