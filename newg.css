@@ -42,6 +42,7 @@ body , html{
     position: absolute;
     bottom: 0;
 }
+
 .maincontent{
     background-color: whitesmoke
 }
@@ -131,6 +132,7 @@ float: left;
 .card{
     width:30vw;
     margin-bottom: 8px;
+    margin-top: 18px;
 }
 .gold{
     background-image: url("gold.jpg");
@@ -143,4 +145,7 @@ float: left;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.top{
+    margin-top: 20px;
 }
