@@ -1,3 +1,4 @@
+
 function logIn(){
     document.getElementById("signUp").style.display = "block";
 }
