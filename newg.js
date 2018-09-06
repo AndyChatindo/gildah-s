@@ -1,4 +1,14 @@
+var joinbuton = document.getElementById('r');
+var ag = document.getElementById('agree');
 
+function check(){
+    if (ag.checked === true){
+            joinbuton.removeAttribute('disabled');
+    }
+    else{
+        joinbuton.getAttribute('disabled') = true;
+    }
+}
 function logIn(){
     document.getElementById("signUp").style.display = "block";
 }

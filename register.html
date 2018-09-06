@@ -66,9 +66,58 @@
         </form>
   </div>
   <!--content goes here-->
+  <div class="w3-container">
+      <div class="plan">
+      </div>
+    <div>
+        <div class="w3-margin-bottom">
+                <h3>Register Online</h3>
+                <a href="flowers.jpeg" download="">You can still download our form here</a>
+        </div>
+        <form action="" id="regForm" class="w3-row w3-round">
+                <p class="w3-text-grey">Fill in all areas</p>
+            <div class="w3-third">
+                    <label for="name">First Name(s)</label>
+                    <input type="text" id="name">
+                    <label for="userSurmane">Surname</label>
+                    <input type="text" id="userSurmane">
+                    <label for="idNumber">Your ID number(valid)</label>
+                    <input type="text" id="idNumber">
+             </div>
+             <div class="w3-third">
+                    <label for="address">Physical Adress</label>
+                    <input type="text" id="address">
+                    <label for="nearestTown">Nearest Town</label>
+                    <input type="text" id="nearestTown">
+                    <label for="religion">Religion(optional)</label>
+                    <input type="text" id="religion">
+             </div>
+             <div class="w3-third">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" id="phoneNumber">
+                    <label for="Email">Email(** optional)</label>
+                    <input type="text" id="Email">
+                    <label for="chosenPlan">Preffered plan</label>
+                    <select name="chosenPlan" id="chosenPlan">
+                            <option value="SilverRing">Silver Ring</option>
+                            <option value="GoldRing">Gold Ring</option>
+                            <option value="DiamongRing">Diamond Ring</option>
+                            
+                    </select>
+             </div>
+             <div class="w3-row">
+                    <label for="agree" class="w3-text-green">I agree to all terms and conditions</label>
+                <input type="checkbox" name="agree" id="agree" onclick="check()">
+                <button type="submit" class="w3-button w3-blue w3-round w3-hover-blue" id="r" disabled>Join</button>
+                <p class="w3-text-indigo">You will recieve a message with your password. Use it to finish registration</p>
+                </div>
+        </form>
+    </div>
+  </div>
 <div id="contact">
-  <div class="row maincontent w3-cell-row">
-        <div class="w3-cell w3-center w3-padding-32">
+  <div class="maincontent w3-cell-row">
+        <div class="w3-cell w3-center">
+                <a href="newg.html"> <img src="Gildah.svg" alt="" srcset="" width="300" height="300"></a>
             <h2>Your vision. Your event. Your way</h2>
             <div class="w3-section">
                  <p>Stay in Touch</p>
@@ -109,37 +158,6 @@
         <p class="cpy">&copy;2018 Gildah's Weddings</p>         <p class="dd">Site by <a href="http://">Andy Kudzai</a></p>
     </div>
 </div>
-
-    <script>
-            function logIn(){
-                document.getElementById("signUp").style.display = "block";
-            }
-            function off(){
-                document.getElementById("signUp").style.display = "none";
-            }
-            function pass() {
-                document.getElementById("signUp").style.display = "none";
-                document.getElementById("forgotPassword").style.display ="block";
-                    }
-            function passOff() {
-                document.getElementById("forgotPassword").style.display ="none";
-            }
-            function message(){
-                document.getElementById("message").style.display = "block"
-            }
-            function messageoff(){
-                document.getElementById("message").style.display = "none"
-            }
-                        // Get the modal
-            var m = document.getElementById("signUp");
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(click) {
-            if (click.target == m) {
-                m.style.display = "none";
-            }
-            }
-            var m = document.getElementById("signUp");
-    </script>
+<script src="newg.js"></script>
 </body>
 </html>
