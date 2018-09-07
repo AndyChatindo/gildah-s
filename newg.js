@@ -1,27 +1,33 @@
-var joinbuton = document.getElementById('r');
-var ag = document.getElementById('agree');
+var joinbutton = document.getElementById('r');
+var agreeCheckbox = document.getElementById('agree');
+
 
 function check(){
-    if (ag.checked === true){
-            joinbuton.removeAttribute('disabled');
+    if (agreeCheckbox.checked == true){
+        joinbutton.disabled = false;               
     }
     else{
-        joinbuton.getAttribute('disabled') = true;
+        joinbutton.disabled = true;
     }
 }
+
 function logIn(){
     document.getElementById("signUp").style.display = "block";
 }
+
 function off(){
     document.getElementById("signUp").style.display = "none";
 }
+
 function pass() {
     document.getElementById("signUp").style.display = "none";
     document.getElementById("forgotPassword").style.display ="block";
         }
+
 function passOff() {
     document.getElementById("forgotPassword").style.display ="none";
 }
+
 function message(){
     document.getElementById("message").style.display = "block"
 }
